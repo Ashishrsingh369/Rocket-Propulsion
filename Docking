@@ -1,0 +1,9 @@
+#include <iostream>
+void adjustThruster(float thrust) {
+    std::cout << "Thruster set to " << thrust << " N\n";
+    // Send signal to hardware
+}
+int main() {
+    adjustThruster(500.0);
+    return 0;
+}
